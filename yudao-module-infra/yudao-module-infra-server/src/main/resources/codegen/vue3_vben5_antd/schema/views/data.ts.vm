@@ -123,7 +123,6 @@ export function useFormSchema(): VbenFormSchema[] {
   #elseif($column.htmlType == "inputNumber")## 数字输入框
       component: 'InputNumber',
       componentProps: {
-        class: '!w-full',
         min: 0,
         placeholder: '请输入${comment}',
       },
@@ -340,7 +339,6 @@ export function use${subSimpleClassName}FormSchema(): VbenFormSchema[] {
                             #elseif($column.htmlType == "inputNumber")## 数字输入框
                                 component: 'InputNumber',
                                 componentProps: {
-                                    class: '!w-full',
                                     min: 0,
                                     placeholder: '请输入${comment}',
                                 },
@@ -574,7 +572,6 @@ export function use${subSimpleClassName}GridColumns(): VxeTableGridOptions<${api
                                 #elseif($column.htmlType == "inputNumber")## 数字输入框
                                     component: 'InputNumber',
                                     componentProps: {
-                                        class: '!w-full',
                                         min: 0,
                                         placeholder: '请输入${comment}',
                                     },

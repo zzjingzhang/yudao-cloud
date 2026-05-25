@@ -102,7 +102,7 @@ public class IotAlertTriggerSceneRuleAction implements IotSceneRuleAction {
                     break;
                 case NOTIFY:
                     notifyMessageSendApi.sendSingleMessageToAdmin(new NotifySendSingleToUserReqDTO().setUserId(userId)
-                            .setTemplateCode(typeEnum.getTemplateCode()).setTemplateParams(templateParams)).checkError();
+                            .setTemplateCode(typeEnum.getTemplateCode()).setTemplateParams(templateParams));
                     break;
             }
         } catch (Exception ex) {

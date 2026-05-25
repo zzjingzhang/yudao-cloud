@@ -117,15 +117,8 @@
 
         <!-- MES 制造执行系统相关模块 -->
 <!--        <dependency>-->
-<!--            <groupId>cn.iocoder.cloud</groupId>-->
-<!--            <artifactId>yudao-module-mes-server</artifactId>-->
-<!--            <version>${revision}</version>-->
-<!--        </dependency>-->
-
-        <!-- WMS 仓库管理模块 -->
-<!--        <dependency>-->
-<!--            <groupId>cn.iocoder.cloud</groupId>-->
-<!--            <artifactId>yudao-module-wms-server</artifactId>-->
+<!--            <groupId>cn.iocoder.boot</groupId>-->
+<!--            <artifactId>yudao-module-mes</artifactId>-->
 <!--            <version>${revision}</version>-->
 <!--        </dependency>-->
 
